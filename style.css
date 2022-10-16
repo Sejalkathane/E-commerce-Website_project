@@ -84,9 +84,10 @@ body {
   padding: 10px 30px;
   background-image: linear-gradient(rgb(255, 255, 255), rgb(227, 227, 227));
   /* background:; */
-  box-shadow: 2px 2px 4px 4px rgb(234, 224, 230);
+  box-shadow: 2px 2px 4px 4px rgb(189, 185, 188);
   z-index: 999;
   position: sticky;
+
   top: 0;
   left: 0;
 }
@@ -96,6 +97,8 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  justify-content: flex-end;
+  
   /* position: fixed; */
 
 }
@@ -103,6 +106,7 @@ body {
 #navbar li {
   list-style: none;
   padding: 0px 20px;
+
 }
 
 
@@ -113,12 +117,14 @@ body {
   color: rgb(0, 0, 0);
   display: inline-block;
   position: relative;
+ 
 }
 
 
 #navbar li a.active,
 #navbar li a:hover {
   color: rgb(255, 55, 118);
+  text-decoration: underline;
 }
 
 #navbar li a:after {
@@ -557,7 +563,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("mid_banner.jpg");
+  background-image: url("/img_remain/mid_banner.jpg");
   width: 100%;
   height: 45vh;
   background-size: cover;
@@ -643,7 +649,7 @@ body {
  background-color: rgb(251, 255, 216);
  position: relative;
  transition: 1s ease;
-height: 550px;
+height: 650px;
 
 }
 
@@ -665,7 +671,7 @@ height: 550px;
  background-color: rgb(245, 245, 245);
  border-radius: 20px;
  transition: 1s ease;
- height:60%;
+ height:63%;
 }
 
 
@@ -910,8 +916,8 @@ footer .copyright
 
 /* =====================home mediaquery====================== */
 
-
-@media (max-width:1280px){
+/* 
+@media (max-width:1150px){
   #navbar {
     display: flex;
     flex-direction: column;
@@ -925,13 +931,13 @@ footer .copyright
    background-color: rgb(230, 230, 230);
    box-shadow: 0 40px 60px  rgb(129, 128, 128);
    padding-top: 20px;
-   /* padding:100px; */
+   /* padding:100px; 
    
 }
  
 #navbar li{
   margin-bottom: 5px;
-}
+} 
 
-}
+} */
 
