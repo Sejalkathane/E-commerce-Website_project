@@ -13,3 +13,13 @@ function showSlides() {
   
   setTimeout(showSlides, 2000);
 }
+
+
+
+function openForm() {
+  document.getElementsByClassName("login").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementsByClassName("close").style.display = "none";
+}

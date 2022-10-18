@@ -66,10 +66,136 @@ body {
 
 
 
-
 /* <<<<<<-------------------------------------------------------------------->>>> */
 
-/* ------------------//ALL ABOUT NAVBAER----------------- */
+/* loginform */
+
+
+.cont{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-image: linear-gradient(white,rgb(238, 255, 144));
+  width: 600px;
+  /* height: 450px; */
+  margin: auto;
+  /* left: 30px; */
+  border-radius: 30px;
+  box-shadow: 4px 4px 4px 4px rgb(255, 255, 255),7px 7px 7px 7px rgb(255, 247, 86);
+  transform: translate(-50%,-50%);
+}
+.close{
+  position: absolute;
+  right: 20px;
+ cursor: pointer;
+  font-size: 50px;
+}
+
+
+.close:hover{
+  color: #1f999b;
+}
+
+.cont  h2{
+  padding: 10px;
+  /* background-image: linear-gradient(white,rgb(255, 78, 78)); */
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+  text-shadow:2px rgb(255, 208, 0);
+  text-align: center;
+}
+
+.form{
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  /* padding: 10px; */
+  margin: auto;
+  width: 400px;
+  margin-top: 40px;
+}
+
+
+.form_input{
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  /* width: 300px; */
+  border-radius: 10px;
+  background-color: rgb(220, 255, 196);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  border: none;  outline: none;
+  box-shadow: inset 2px 2px 2px 2px rgb(255, 255, 255),4px 4px 4px 4px rgb(255, 246, 80);
+}
+
+.btn{
+  font-style: bold;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 227, 13));
+  box-shadow:  inset 0px 0px 3px 3px rgb(255, 199, 57),3px 3px 3px 3px rgb(255, 255, 255);
+  transition: 0.2  ease-in-out;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  border: none;
+  font-weight: bold;
+
+}
+
+
+.btn:hover{
+  width:202px ;
+  height: 52px;
+  box-shadow:   0px 0px 3px 3px rgb(255, 199, 57),3px 3px 3px 3px rgb(255, 255, 255);
+}
+
+
+/* .cont div h4{
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  font-style:italic ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 30px;
+} */
+
+/* .social_icon img{
+  width: 50px;
+  margin-top: 1px;
+ padding: 20px;
+  cursor: pointer;
+}  */
+
+.cont  .sign{
+margin: 30px 0;
+font-size: 20px;
+margin-left: 150px;
+}
+.cont  div a {
+  margin-left: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  font-style: italic;
+  text-decoration: none;
+  /* background-color: red; */
+
+}
+
+
+
+
+/*-------//ALL ABOUT NAVBAER----------------- */
 .logo {
   width: 70px
     /* background-color: rgb(255, 162, 162); */
@@ -79,7 +205,7 @@ body {
 .header {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   padding: 10px 30px;
   background-image: linear-gradient(rgb(255, 255, 255), rgb(227, 227, 227));
