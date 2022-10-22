@@ -15,11 +15,31 @@ function showSlides() {
 }
 
 
+// document.getElementsByid("login").onclick = function() {openForm()};
+// document.getElementsByClassName("close").onclick = function() {closeForm()};
 
-function openForm() {
-  document.getElementsByClassName("login").style.display = "block";
-}
+// function openForm() {
+//   document.getElementsByid("login").style.display = "block";
+//   console.log("print");
+//   // document.getElementsByid("login").innerHTML="HIII";
+// }
 
-function closeForm() {
-  document.getElementsByClassName("close").style.display = "none";
-}
+// function closeForm() {
+//   document.getElementsByClassName("close").style.display = "none";
+// }
+
+
+
+// const btn = document.getElementById('login');
+
+// btn.addEventListener('click', () => {
+//   const form = document.getElementById('cont');
+
+//   if (form.style.display === 'none') {
+//     // 👇️ this SHOWS the form
+//     form.style.display = 'block';
+//   } else {
+//     // 👇️ this HIDES the form
+//     form.style.display = 'none';
+//   }
+// });

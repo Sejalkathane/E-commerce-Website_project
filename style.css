@@ -72,7 +72,7 @@ body {
 
 
 .cont{
-  display: none;
+  /* display: none; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -195,6 +195,10 @@ margin-left: 150px;
 
 
 
+
+
+
+
 /*-------//ALL ABOUT NAVBAER----------------- */
 .logo {
   width: 70px
@@ -238,7 +242,7 @@ margin-left: 150px;
 
 #navbar li a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
   color: rgb(0, 0, 0);
   display: inline-block;
@@ -574,39 +578,40 @@ margin-left: 150px;
   /* margin: 10px; */
 
   padding: 20px 10px;
-  border: 1px solid rgb(194, 194, 194);
-  border-radius: 20px;
-  box-shadow: 2px 2px 10px 10px rgb(222, 222, 222);
+  /* border: 1px solid rgb(194, 194, 194); */
+  /* border-radius: 20px; */
+  box-shadow: 2px 2px 10px 10px rgb(233, 233, 233);
   /* height: 600px; */
-  background-color: rgb(251, 255, 216);
+  /* background-color: rgb(251, 255, 216); */
   position: relative;
   transition: 1s ease;
-
+  box-shadow: inset 1px 1px 30px 30px rgb(246, 245, 245);
 
 /* 
   width:100%;
   height:100%; */
   color:black;
   font-weight:bold;
-  animation: myanimation 10s infinite;
+  /* animation: myanimation 10s infinite; */
 
 }
 
 
 
-@keyframes myanimation {
+/* @keyframes myanimation {
   0% {background-color: rgb(208, 212, 255);}
   25%{background-color:rgb(255, 215, 243);}
   50%{background-color:rgb(208, 254, 208);}
   75%{background-color:rgb(200, 247, 255);}
   100% {background-color: rgb(255, 250, 195);}
-}
+} */
 
 #trending .pro-1:hover {
   cursor: pointer;
-  box-shadow: inset 0px 0px 5px 5px rgb(255, 250, 250), 2px 2px 20px 20px rgb(230, 230, 230);
+  box-shadow: 0px 0px 5px 5px rgb(253, 212, 228), 2px 2px 20px 20px rgb(230, 230, 230);
   /* transform: scale(1.05);
   transition: 0.5s ease-in-out; */
+  border-radius: 20px;
   border: 2px solid rgb(169, 169, 169);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -620,11 +625,14 @@ margin-left: 150px;
   background-color: rgb(245, 245, 245);
   border-radius: 20px;
   transition: 1s ease;
+  border: 1px solid rgb(237, 237, 237);
+  box-shadow: 0px 0px 2px 2px rgb(233, 233, 233);
+
 
 }
 
 .pro-1 .img-product-1:hover {
-  background-color: rgb(255, 252, 69);
+  /* background-color: rgb(255, 252, 69); */
   transform: translate(-10px, -20px) scale(1.03);
   transition: 0.5s ease-in-out;
   -webkit-transform: scale(1.1);
@@ -661,18 +669,19 @@ margin-left: 150px;
 }
 
 .add-cart img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   line-height: 40px;
-  background-color: rgb(251, 255, 189);
-  border-radius: 50px;
+  /* background-color: rgb(238, 238, 238); */
+  border-radius: 10px;
   font-weight: 500;
-  border: 1px solid rgb(204, 204, 236);
-  box-shadow: 0px 0px 2px 2px yellow;
+  /* border: 1px solid rgb(204, 204, 236); */
+  box-shadow: 0px 0px 3px 3px rgb(255, 214, 232);
   position: absolute;
   bottom: 33px;
   right: 10px;
 }
+
 
 
 
@@ -695,6 +704,7 @@ margin-left: 150px;
   background-size: cover;
   padding-top: 20px;
   margin: 60px 0px;
+  /* position: absolute; */
 }
 
 
@@ -768,41 +778,44 @@ body {
  /* margin: 10px; */
 
  padding: 20px 10px;
- border: 1px solid rgb(194, 194, 194);
- border-radius: 20px;
- box-shadow: 2px 2px 10px 10px rgb(222, 222, 222);
+ /* border: 1px solid rgb(194, 194, 194); */
+ /* border-radius: 20px; */
+ box-shadow: 2px 2px 10px 10px rgb(233, 233, 233);
  /* height: 600px; */
- background-color: rgb(251, 255, 216);
+ /* background-color: rgb(251, 255, 216); */
  position: relative;
  transition: 1s ease;
+ box-shadow: inset 1px 1px 30px 30px rgb(246, 245, 245);
 height: 650px;
 
 }
 
 #collection .collection-1:hover {
- cursor: pointer;
- box-shadow: inset 0px 0px 5px 5px rgb(253, 239, 193), 2px 2px 20px 20px rgb(252, 253, 193);
- /* transform: scale(1.05);
- transition: 0.5s ease-in-out; */
- border: 2px solid yellow;
- -webkit-transform: scale(1.1);
- -ms-transform: scale(1.1);
- transform: scale(1.1);
- transition: 1s ease;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 5px rgb(253, 212, 228), 2px 2px 20px 20px rgb(230, 230, 230);
+  /* transform: scale(1.05);
+  transition: 0.5s ease-in-out; */
+  border-radius: 20px;
+  border: 2px solid rgb(169, 169, 169);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
 
 }
 
 .collection-1 .img-coll-1{
- width: 100%;
- background-color: rgb(245, 245, 245);
- border-radius: 20px;
- transition: 1s ease;
- height:63%;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  border-radius: 20px;
+  transition: 1s ease;
+  border: 1px solid rgb(237, 237, 237);
+  box-shadow: 0px 0px 2px 2px rgb(233, 233, 233);
 }
 
 
 .collection-1 .img-coll-1:hover {
- background-color: rgb(255, 252, 69);
+ /* background-color: rgb(255, 252, 69); */
  transform: translate(-10px, -20px) scale(1.03);
  transition: 0.5s ease-in-out;
  -webkit-transform: scale(1.1);
@@ -813,17 +826,17 @@ height: 650px;
 
 
 .add-cart-coll img{
- width: 40px;
- height: 40px;
- line-height: 40px;
- background-color: rgb(251, 255, 189);
- border-radius: 10px;
- font-weight: 500;
- border: 1px solid rgb(204, 204, 236);
- box-shadow: 0px 0px 2px 2px yellow;
- position: absolute;
- bottom:20px;
- right: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 40px;
+  /* background-color: rgb(238, 238, 238); */
+  border-radius: 10px;
+  font-weight: 500;
+  /* border: 1px solid rgb(204, 204, 236); */
+  box-shadow: 0px 0px 3px 3px rgb(255, 214, 232);
+  position: absolute;
+  bottom: 33px;
+  right: 10px;
 }
 
 .watch-coll
@@ -859,14 +872,19 @@ height: 650px;
  height: 55vh;
  background-size: cover;
  padding-top: 20px;
- margin: 60px 0px;
-margin: 40px 70px;
+ /* margin: 60px 0px; */
+margin: 40px 70px; 
 margin-top: 100px;
 padding: 30px;
+position: relative;
+
+
 }
 
 .sm-banner .banner-box2{
  background-image: url("banner/short-b2.jpg");
+right: 60px;
+
 }
 
 .sm-banner .banner-box2 h2{
