@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong");
+
+/* font-family: 'Balsamiq Sans', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Blaka', cursive;*/
+/* font-family: "Trirong", serif;     */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trirong", serif;
+ 
+
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: black;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: black;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 43px;
+  color: black;
+}
+
+h4 {
+  font-size: 20px;
+  /* line-height: 64px; */
+  color: black;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: rgb(79, 79, 79);
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+
+body {
+  width: 100%;
+}
+
+
+
+
+/* <<<<<<-------------------------------------------------------------------->>>> */
+
+/* ------------------//ALL ABOUT NAVBAER----------------- */
+.logo {
+  width: 70px
+    /* background-color: rgb(255, 162, 162); */
+}
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(227, 227, 227));
+  /* background:; */
+  box-shadow: 2px 2px 4px 4px rgb(189, 185, 188);
+  z-index: 999;
+  position: sticky;
+
+  top: 0;
+  left: 0;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  justify-content: flex-end;
+  
+  /* position: fixed; */
+
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0px 20px;
+
+}
+
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  position: relative;
+ 
+}
+
+
+#navbar li a.active,
+#navbar li a:hover {
+  color: rgb(255, 55, 118);
+  text-decoration: underline;
+}
+
+#navbar li a:after {
+
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff2a9f;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#navbar li a:hover:after {
+
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.cart_icon {
+  width: 40px;
+}
+
+
+
+
+
+
+
+
+
+.page-header{
+    background-image: url("about/banner.png");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+   
+}
+
+
+.page-header h2{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+
+}
+.page-header p{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+#contact-details .details
+{ 
+  width: 40%;
+}
+
+
+
+#contact-details .details span{
+    font-size: 20px;
+}
+
+
+#contact-details .details  h2{
+    font-size: 40px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-details .details h3
+{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 10px;
+}
+
+#contact-details .details li p{
+  margin: 0px;
+  font-size: 24px;
+  padding: 10px;
+}
+
+
+
+.map{
+    width: 55%;
+    height: 600px;
+}
+
+
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+#form-detail{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+
+
+#form-detail form
+{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+   margin-top: 100px;
+   padding: 40px ;
+}
+
+#form-detail span{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+}
+
+#form-detail  h2{
+    font-size: 30px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#form-detail form input,
+#form-detail form textarea{
+    width: 100%;
+    padding: 18px 15px;
+    outline: none;
+    margin-bottom: 25px;
+    border: 1px solid #e1e1e1;
+    font-size: 20px;
+    box-shadow:0px 0px 4px 4px#d1ffff;
+    border-radius: 10px;
+    
+}
+
+
+#form-detail button{
+   margin-left: 40px;
+  width: 180px;
+  padding: 10px 0;
+  height: 80px;
+  /* border-radius: 10px; */
+  background-color: rgb(10, 210, 153);
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  box-shadow: inset 0px 0px 3px 3px rgb(55, 155, 130);
+
+}
+
+#form-detail button:hover{
+    background-color: rgb(3, 255, 184);
+    box-shadow: 0px 0px 3px 3px rgb(28, 148, 120);
+}
+
+
+
+
+
+
+#form-detail .people div{
+    padding-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+#form-detail .people .div img{
+
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+
+
+#form-detail .people .div p{
+    margin: 0;
+    font-size: 15px;
+    line-height: 25px;
+   
+}
+
+#form-detail .people span{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+ 
+footer{
+    margin: 50px 40px;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: linear-gradient(rgb(255, 255, 255),rgb(249, 227, 255));
+  }
+  
+  footer .col{
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  padding: 100px;
+  }
+  
+  
+  
+  
+  .footer-home .col .f-logo{
+    width: 70px;
+    margin-bottom: 30px;
+  }
+  
+  footer h4{
+    font-size: 20px;;
+    padding-bottom: 20px;
+  }
+  
+  footer p{
+     font-size: 13px;
+     margin: 0 0 8px 0;
+  }
+  
+  footer a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(33, 109, 62);
+    margin: 0 0 8px 0;
+  }
+  
+  footer .follow .icon img {
+    margin-top: 0px;
+    width: 45px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  footer .col a:hover{
+     color: #49cebe;
+     font-size: 19px;
+  }
+  
+  .row img{
+    width: 50px;
+    padding: 5px;
+  }
+  
+  footer .copyright
+  {
+    align-items: center;
+    margin-left: 800px;
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  
+  
+  
+  

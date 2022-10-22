@@ -175,6 +175,7 @@ body {
 .blog-header h2{
     font-size: 50px;
 }
+
 .blog-header p{
     font-size: 30px;
     color: black;
@@ -244,7 +245,7 @@ body {
 
 #blog .blog-box h1{
       position: absolute;
-      top: -50px;
+      top: -60px;
       left: 0;
       font-size: 60px;
       font-weight: 700;
