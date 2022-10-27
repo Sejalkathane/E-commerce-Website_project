@@ -1,47 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shopping keen</title>
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" /> -->
+    <link rel="icon" href="/img_remain/logo_1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- <script src="index.js"></script> -->
 
-        <title>Login Page</title>
-        <link rel="stylesheet" href="login.css">
 
-    </head>
+  </head>
 
 
-    <body>
 
-     <div class="log" >
-        <div class="wraper">
-            <h2>Login</h2>
-            <a href="" class="close">&times;</a>
-            <div class="content">
-                <div class="container">
-                     <form>
-                        <label>Name</label>
-                        <input type="text" placeholder="Enter your name">
-                        <label >Email:</label>
-                        <input type="email" placeholder="Enter your email">
 
-                        <label>Password</label>
-                        <input type="password" placeholder="Enter your Password">
+  <body>
+    <section class="header">
+      <a href="#"><img src="/img_remain/logo_1.png" class="logo" alt=""></a>
 
-                        <input type="checkbox" id="rem">
-                        <label >Remember me</label>
-                         
-                        <a href="#">Forget Password</a>
-                        <button>Submit</button>  
-                     </form>
-                </div>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a  class="active"  href="" id="login"" >Login/Sign in</a></li>
+          <!-- <button id="login">Login/sign in</button> -->
+          <!-- <li><a href="cart.html"><i class="fa-solid fa-cart-shopping-fast"></i></a></li> -->
+          <li><a href="cart.html"><img src="/img_remain/trolley.png" class="cart_icon" alt=""></a></li>
+        </ul>
+      </div>
+      <div id="mobile">
+    
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+     <!-- <h1>Welcome to login page</h1> -->
+     <div class="cont">
+         <h2>Login Page</h2>
+
+         <form action="" class="form">
+            <input class="form_input" type="email" placeholder="please enter your email">
+            <input class="form_input" type="password" placeholder="Please enter your password">
+            <button class="btn" onclick="">LOGIN</button>
+         </form>
+
+         <!-- <div>
+            <h4>or login with</h4>
+            <div class="social_icon">
+               <a href="www.facebook.com" target="_blank"><img src="fblogo.png" alt="fbimage"></a>
+               <a href="www.google.com" target="_blank"><img src="Googlelogo.png" alt="fbimage"></a>
             </div>
-        </div>
+            Not a member? 
+            <a href="sign.html"> Sign Up Now</a>
+         </div> -->
+
      </div>
 
 
 
+
+
+     <footer class="footer-home">
+        <div class="col">
+            <img src="/img_remain/logo_1.png" class="f-logo" alt="logo">
+            <h4>Contact</h4>
+            <p> <strong>Address:</strong> xyz Abu Dabi Road ,Street 30 , Dubai </p>
+            <p><strong>Phone:</strong> +01 23232 444 /(+91) 01 3411 444</p>
+            <p><strong>Hours:</strong> 10:00 - 19:00 , Mon-Sat</p>
+            
+            <div class="follow">
+              <h4>Follow US</h4>
+              <div class="icon">
+                <img src="/social_icon/facebook.png" alt="">
+                <img src="/social_icon/instagram (1).png" alt="">
+                <img src="/social_icon/twitter.png" alt="">
+                <img src="/social_icon/youtube.png" alt="">
+              </div>
+             </div>
+        </div>
+  
+        <div class="col">
+           <h4>About</h4>
+           <a href="#">About Us</a>
+           <a href="#">Delivary Information</a>
+           <a href="#">Privacy Policy</a>
+           <a href="#">Terms & Conditions</a>
+           <a href="#">Contact Us</a>
+        </div>
+  
+        <div class="col">
+          <h4>My Account</h4>
+          <a href="#">Sign In</a>
+          <a href="#">View Cart</a>
+          <a href="#">My Wishlist</a>
+          <a href="#">Track My Order</a>
+          <a href="#">Help</a>
+       </div>
+  
+       <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <h4>Secured Payment Gateways</h4>
+          <img src="/credit_card_img/visa.png" alt="">
+          <img src="/credit_card_img/credit-card (1).png" alt="">
+          <img src="/credit_card_img/credit-card.png" alt="">
+          <img src="/credit_card_img/paypal.png" alt="">
+        </div>
+       </div>
+  
+  
+       <div class="copyright"> 
+       <h5> <b>&#169;</b> 2022, Shopping Kenn.com Inc. </h5>
+       </div>
+  
+      </footer>
+  
+
+  
+  
+
+  
+  
+  
+  
        <script src="login.js"></script>
+
+
     </body>
     </html>
